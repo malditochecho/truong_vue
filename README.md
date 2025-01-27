@@ -88,3 +88,11 @@ It works with elements that has an attribute `value` like `input` (string), `tex
 <input v-model="somevariable" />
 <input v-model="somevariable" />
 ```
+
+## vue directives
+
+- `v-model`
+- `v-bind`
+- `v-if`
+- `v-else`
+- `v-for`

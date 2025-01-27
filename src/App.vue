@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
+<!-- text interpolation example -->
+
+<script setup lang="ts">
+import { ref } from "vue";
+
+const somevariable = ref("truong");
+</script>
 
 <template>
-  <p>Hola mundo!</p>
+  <p>Hola {{ somevariable }} !</p>
 </template>
 
 <style></style>

@@ -71,11 +71,22 @@ The value of a variable can be put inside the text content of an html element
 
 ### attribute binding
 
-The value of a variable can be used in an html element's attribute as well with `v-bind`. It has a shortcut with `:` only too.
+The value of a variable can be used in an html element's attribute as well with `v-bind`.
 
 ```html
 <input v-bind:placeholder="somevariable" />
+```
+
+It has a shortcut by using only colon too:
+
+```html
 <input :placeholder="somevariable" />
+```
+
+And if the name of the variable has the same name as the attribute, it can be even shorter like this:
+
+```html
+<input :placeholder />
 ```
 
 ### two way binding
